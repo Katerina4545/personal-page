@@ -5,30 +5,39 @@ body{
    
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .menu{
+    position: absolute;
+    z-index: 2;
     width: 40px;
     height: 40px;
     margin: 20px;
     margin-left: 35px;
+    cursor: pointer; 
 }
 
 .contacts{
-    position: relative;
+    position: absolute;
     float: right;
     right: 170px;
+    
 }
 
 .contact{
     width: 40px;
     height: 40px;
-    margin: 20px;    
+    margin: 20px; 
+    cursor: pointer;   
 }
 
 .avatar{
 position: relative;
 width: 268px;
 height: 268px;
-left: 586px;
 top: 80px;
 
 background: url("../img/avatar.png") no-repeat;
@@ -74,6 +83,7 @@ border-radius: 50%;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+    cursor: pointer; 
 }
 
 .website a{
